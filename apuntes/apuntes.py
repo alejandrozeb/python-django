@@ -13,4 +13,8 @@ python Indent
 Arelp for python
 Python Preview
 code runner
+
+variables
+Al valor de la variable podemos decirle literal, la variable toma el tipo de valor del valor (entero) esto podemos verlo en previw ctrl + k+v en el archivo
+
  """

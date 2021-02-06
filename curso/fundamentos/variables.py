@@ -9,3 +9,6 @@ print(x)
 print(y)
 
 """ en memoria, tenemos celdas donde la primera tiene el valor de 3 otra de 5 y otra de z con punteros de referencia a los valores """
+
+w=z
+""" w tambien esta apuntando al valor de z, al literal de z, el resultado lo tenemos en un solo lugar de la memoria """
