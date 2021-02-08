@@ -18,3 +18,11 @@ ej py 7-entradadedatos.py
 y se ejecutara este archivo
 '''
 ''' en vs podemos abrir una terminal python en la terminal '''
+''' ejemplo de uso '''
+print("Proporciona el titulo:")
+titulo=input()
+print("Proporciona el autor:")
+autor=input()
+print(titulo+"fue escrito por"+autor)
+
+''' puedes agregar en input el mensaje q se recibira input ("mensaje") y se mostrara el mensaje y esperara el input'''
