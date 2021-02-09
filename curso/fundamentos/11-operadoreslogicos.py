@@ -22,3 +22,22 @@ else:
 
  
 print(not(vacaciones)) #invierte o niega el valor de la variable true a false , de false a true
+
+''' ejemplo  '''
+a = int(input("Proporciona el alto:"))
+b = int(input("Proporciona el ancho: "))
+
+print("Area: ", a*b) 
+print("perimetro: ",(a*b)*2) 
+
+''' mayor '''
+
+a = int(input("Proporciona el numero1:"))
+b = int(input("Proporciona el numero2: "))
+if(a>b):
+    print("El mayor es", b)    
+else:
+    if(b>a):
+        print("EL mayor es ", b) 
+    else:
+        print("son iguales")
