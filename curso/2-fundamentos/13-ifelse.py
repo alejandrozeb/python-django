@@ -32,3 +32,8 @@ else:
     
 print("numero proporcionado", numero)
 """ podemos tene un bloque con solo if sin el else """
+
+""" ternario """
+
+print("Condicion verdadera") if condicion else print("condicion falsa")
+#la primera parte es por true y la segunda por Falsa nose puede usar elseif
