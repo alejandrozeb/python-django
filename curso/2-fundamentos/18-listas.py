@@ -43,3 +43,31 @@ else:
     en los arrays cuando se crean o se instancia se guarda una cantidad determinado de memoria
     en listas se van creando dinamicamente
 """
+
+#agregar un nuevo elemento al final
+nombres.append("Lorenzo")
+print("nombres")
+
+#insertar u elemtno en un indice
+nombres.insert(1, "Octavio")
+print(nombres)
+
+#remover un elemento
+nombres.remove("Octavio")
+print(nombres)
+
+#remover el ultimo elemento
+nombres.pop()
+print(nombres)
+
+#remover con un indice, si no proporcionamos un indice remueve toda la lista
+del nombres[0]
+print(nombres)
+
+#deja en blanco nuetsra lista
+nombres.clear()
+print(nombres)
+
+#elimna la variable por completo
+del nombres
+print(nombres)
