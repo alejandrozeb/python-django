@@ -70,4 +70,4 @@ print(nombres)
 
 #elimna la variable por completo
 del nombres
-print(nombres)
+print(nombres)#salta un error
